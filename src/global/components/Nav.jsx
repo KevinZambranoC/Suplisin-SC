@@ -6,7 +6,7 @@ const Nav = () => {
         <nav className="bg-darkBlue fixed w-full z-20 top-0 left-0 border-b border-gray-200 border-gray-600">
             <div className="w-screen-xl flex flex-wrap items-center justify-between p-4">
                 <Link to='/' className="w-64 flex items-center w-32">
-                    <img className="w-64 h-12 self-center text-2xl font-semibold whitespace-nowrap w-32 object-cover" src='/src/assets/logo3.png'/>
+                    <img className="w-64 h-12 self-center text-2xl font-semibold whitespace-nowrap w-32 object-cover" src='/logo.png'/>
                 </Link>
                 <div className="flex md:order-2">
                     <button type="button" className="h-12 hidden lg:inline text-white font-medium rounded-md text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-darkBlue border border-white">
