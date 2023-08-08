@@ -5,11 +5,14 @@ const Nav = () => {
     return (
         <nav className="bg-darkBlue fixed w-full z-20 top-0 left-0 border-b border-gray-200 border-gray-600">
             <div className="w-screen-xl flex flex-wrap items-center justify-between p-4">
-                <a href="https://flowbite.com/" className="flex items-center">
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap w-32 bg-logo">sad</span>
-                </a>
+                <Link to='/' className="w-64 flex items-center w-32">
+                    <img className="w-64 h-12 self-center text-2xl font-semibold whitespace-nowrap w-32 object-cover" src='/src/assets/logo3.png'/>
+                </Link>
                 <div className="flex md:order-2">
-                    <button type="button" className="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-darkBlue hover:bg-blue-700 focus:ring-blue-800">Get started</button>
+                    <button type="button" className="h-12 hidden lg:inline text-white font-medium rounded-md text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-darkBlue border border-white">
+                        <span className='inline-block mr-3 h-6 bg-calculator bg-cover text-white/[0]'>aaa</span>
+                        <p className='inline-block align-middle'>GET A FREE RATE</p>
+                    </button>
                     <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -17,7 +20,7 @@ const Nav = () => {
                         </svg>
                     </button>
                 </div>
-                <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <div className="items-center  justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-darkBlue border-gray-700">
                     <li>
                         <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-white md:p-0" aria-current="page">Home</a>

@@ -10,7 +10,10 @@ export default {
         'darkBlue': '#1b263b',
       },
       backgroundImage: {
-        'logo': 'url("/src/assets/logo.png")'
+        'calculator': 'url("/src/assets/calc.png")'
+      },
+      screens: {
+        'tablet': '920px'
       }
     },
   },
