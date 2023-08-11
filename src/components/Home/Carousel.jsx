@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { PiPaintBrushBroadBold } from 'react-icons/pi';
-import { FaHammer } from 'react-icons/fa';
-import { AiOutlineFormatPainter } from 'react-icons/Ai';
+import { BsChevronCompactLeft, BsChevronCompactRight } from '/react-icons/bs';
+import { PiPaintBrushBroadBold } from '/react-icons/pi';
+import { FaHammer } from '/react-icons/fa';
+import { AiOutlineFormatPainter } from '/react-icons/Ai';
 
 
 function Carousel  (){
