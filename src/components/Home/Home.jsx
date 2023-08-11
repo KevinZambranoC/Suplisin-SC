@@ -1,7 +1,6 @@
 import React from 'react'
-import Nav from '../../global/components/Nav/Nav'
-import Footer from '../../global/components/Footer'
 import Carousel  from './Carousel'
+import { Contact } from './Contact'
 import './home.css'
 
 const slides = [
@@ -13,9 +12,8 @@ const slides = [
 export const Home = () => {
     return (
         <>
-            <Nav />
-                    <Carousel />
-            <Footer/>
+            <Carousel />
+            <Contact/>
         </>
     )
 }
