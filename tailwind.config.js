@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        'blackBlue': '#0d1b2a',
         'darkBlue': '#1b263b',
+        'cyanBlue': '#415a77',
         'lightGray': '#e0e1dd',
         'lightBlue': '#778da9'
+
       },
       backgroundImage: {
         'calculator': 'url("/src/assets/calc.png")',
@@ -19,7 +22,11 @@ export default {
       },
       screens: {
         'tablet': '920px'
-      }
+      },
+      lineHeight: {
+        'semiloose': '1.15',
+        '12': '3rem',
+      },
     },
   },
   plugins: [],
