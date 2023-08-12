@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: resolve('./src/components/Home/Carousel.jsx'),
+      entry: ('./src/components/Home/Carousel.jsx'),
       name: 'react-icons',
       filename: '"react-icons": "^4.10.1",'
     },

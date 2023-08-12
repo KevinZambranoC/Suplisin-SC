@@ -19,6 +19,11 @@ export default {
         'call': 'url("/src/assets/call.png")',
         'instagram': 'url("/src/assets/instagram.png")',
         'facebook': 'url("/src/assets/facebook.png")',
+        'hammer': 'url("/src/assets/hammer.png")',
+        'brush': 'url("/src/assets/brush.png")',
+        'paint': 'url("/src/assets/paint.png")',
+        'larrow': 'url("/src/assets/larrow.png")',
+        'rarrow': 'url("/src/assets/rarrow.png")'
       },
       screens: {
         'tablet': '920px'

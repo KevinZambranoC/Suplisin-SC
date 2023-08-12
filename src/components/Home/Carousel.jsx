@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
-import { BsChevronCompactLeft, BsChevronCompactRight } from '/react-icons/bs';
-import { PiPaintBrushBroadBold } from '/react-icons/pi';
-import { FaHammer } from '/react-icons/fa';
-import { AiOutlineFormatPainter } from '/react-icons/Ai';
-
+import './carousel.css'
 
 function Carousel  (){
     const slides = [
@@ -48,17 +44,17 @@ function Carousel  (){
                     </div>
                     <div className='w-auto mt-4 xl:w-3/5 relative mx-auto top-64 lg:top-48 h-48 hidden md:flex flex-row items-center justify-center text-gray-800 shadow-2xl'>
                         <div className='  bg-slate-50 w-1/3 md:h-52 text-center rounded-l-xl'>
-                        <FaHammer className='m-auto py-7 ' size={95} />
+                            <div className='mt-6'><ion-icon name="hammer-outline" id="card__icon"></ion-icon></div>
                             <h3 className='font-bold'>Drywall Installation</h3>
                             <p className='leading-6 pt-1'>We specialize in providing top-quality drywall services for Residential clients.</p>
                         </div>
                         <div className='bg-slate-100 w-1/3 md:h-64 text-center rounded-lg shadow-2xl'>
-                            <AiOutlineFormatPainter className='m-auto py-4' size={90} />
+                            <div className='mt-6'><ion-icon name="copy-outline" id="card__icon"></ion-icon></div>
                             <h3 className='font-bold'>Taping, finishing and texture</h3>
                             <p className='leading-6 pb-3'>The company offers drywall taping and finishing services to create a smooth surface. They also provide texture application services for clients who desire a specific texture on their drywall surfaces.</p>
                         </div>
                         <div className=' bg-slate-200 w-1/3  md:h-52 text-center rounded-r-xl'>
-                            <PiPaintBrushBroadBold className='m-auto py-4 ' size={80} />
+                            <div className='mt-4'><ion-icon name="color-palette-outline"  id="card__icon">a</ion-icon></div>
                             <h3 className='font-bold'>Interior & Exterionr Painting</h3>
                             <p className='leading-6 pt-1'>Professional hause painter, Contractor providing interior and exterior painting for Residential and Comercial.</p>
                         </div>
@@ -67,11 +63,11 @@ function Carousel  (){
                 </div>
               {/* Left Arrow */}
                 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                    <BsChevronCompactLeft onClick={nextSlide} size={30} />
+                <ion-icon name="chevron-back-outline" id="button" onClick={nextSlide}></ion-icon>
                 </div>
               {/* Right Arrow */}
                 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                    <BsChevronCompactRight onClick={nextSlide} size={30} />
+                <ion-icon name="chevron-forward-outline"  id="button" onClick={prevSlide}></ion-icon>
                 </div>
                 <div className='flex relative top-[-13%] justify-center'>
                 {slides.map((slide, slideIndex) => (
