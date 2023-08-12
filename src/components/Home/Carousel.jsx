@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './carousel.css'
 
 function Carousel  (){
     const slides = [

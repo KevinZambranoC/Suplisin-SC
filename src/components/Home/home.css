@@ -6,3 +6,8 @@ ion-icon {
     color: #FFF;
     font-size: 1.7rem;
 }
+
+#card__icon {
+    color: black;
+    font-size: 48px;
+}
