@@ -16,8 +16,8 @@ const Nav = () => {
     let [open,setOpen]=useState(false);
 
     return (
-        <div className='z-20 shadow-xl w-screen fixed top-0 left-0'>
-            <div className='md:flex items-center justify-between bg-darkBlue py-4 lg:px-10 px-7'>
+        <div className='z-20 shadow-xl w-full fixed top-0 left-0'>
+            <div className='md:flex items-center justify-between bg-darkBlue w-full py-4 lg:px-10 px-7'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center text-gray-800'>
                     <span className=' flex items-center w-56 '>
                         <img className='w-56 h-12 self-center text-2xl font-semibold whitespace-nowrap w-32 object-cover' src="/logo.png" alt="succesBuild logo" />
