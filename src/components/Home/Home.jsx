@@ -12,8 +12,10 @@ const slides = [
 export const Home = () => {
     return (
         <>
-            <Carousel />
-            <Contact/>
+            <main>
+                <Carousel />
+                <Contact/>
+            </main>
         </>
     )
 }

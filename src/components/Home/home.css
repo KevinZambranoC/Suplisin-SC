@@ -11,3 +11,12 @@ ion-icon {
     color: black;
     font-size: 48px;
 }
+
+#time, #location {
+    color: #e0e1dd;
+    font-size: 56px;
+}
+
+#number {
+    font-size: 36px;
+}

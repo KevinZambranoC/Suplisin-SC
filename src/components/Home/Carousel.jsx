@@ -31,13 +31,13 @@ function Carousel  (){
         };
         
         return (
-            <div className=' h-[720px] md:h-[1140px] relative group'>
+            <div className=' h-[780px] md:h-[1080px] relative group'>
                 <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className=' h-full  bg-center bg-cover duration-500'>
                     <div  className='relative lg:h-96 justify-center h-80 m-auto lg:top-32 top-32 md:top-52 rounded-xl  flex flex-col  items-center  text-blackBlue bg-gray-200/[.35] w-full xl:w-1/2'>
                         <p className='font-semibold text-xl pb-2 mt-4'>Drywall Texture</p>
                         <h1 className='lg:text-7xl md:text-6xl sm:text-5xl text-4xl lg:w-auto w-3/4 font-bold text-center leading-semiloose'>Need new Drywall, Finish, Texture or Paint? <br />Do it right!</h1>
                     </div>
-                    <div className='relative top-56 md:hidden h-24 flex-col flex items-center justify-center w-72 text-center m-auto  text-white text-white'>
+                    <div className='relative top-48 md:top-56 md:hidden h-24 flex-col flex items-center justify-center w-72 text-center m-auto  text-white text-white'>
                         <button className='h-14 w-5/6 rounded-full bg-darkBlue font-medium tracking-wider'>Request Service</button>
                         <p className='pt-1  tracking-wide'>Get in touch for a custom quote</p>
                     </div>
@@ -60,15 +60,15 @@ function Carousel  (){
                     </div>
             
                 </div>
-              {/* Left Arrow */}
-                <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                <ion-icon name="chevron-back-outline" id="button" onClick={nextSlide}></ion-icon>
-                </div>
-              {/* Right Arrow */}
-                <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                <ion-icon name="chevron-forward-outline"  id="button" onClick={prevSlide}></ion-icon>
-                </div>
-                <div className='flex relative top-[-13%] justify-center'>
+                    {/* Left Arrow */}
+                    <div className='hidden group-hover:block absolute top-[50%] lg:top-[40%] md:top-[33%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full  w-12 h-12 p-2.5 bg-black/20 text-white cursor-pointer'>
+                    <ion-icon name="chevron-back-outline" id="button" onClick={nextSlide}></ion-icon>
+                    </div>
+                    {/* Right Arrow */}
+                    <div className='hidden group-hover:block absolute top-[50%] lg:top-[40%] md:top-[33%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full  w-12 h-12 p-2.5 bg-black/20 text-white cursor-pointer'>
+                    <ion-icon name="chevron-forward-outline"  id="button" onClick={prevSlide}></ion-icon>
+                    </div>
+                <div className='flex relative top-[-15%] md:top[-13%] justify-center'>
                 {slides.map((slide, slideIndex) => (
                     <div
                     key={slideIndex}
