@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Carousel  (){
+export const Carousel = () => {
     const slides = [
         {
             url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1700&q=80',
@@ -82,5 +82,3 @@ function Carousel  (){
             </div>
         );
 }
-
-export default Carousel

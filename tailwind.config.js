@@ -11,7 +11,8 @@ export default {
         'darkBlue': '#1b263b',
         'cyanBlue': '#415a77',
         'lightGray': '#e0e1dd',
-        'lightBlue': '#778da9'
+        'lightBlue': '#778da9',
+        'offWhite': '#edf6f9'
 
       },
       backgroundImage: {

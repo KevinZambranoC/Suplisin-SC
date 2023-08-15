@@ -1,6 +1,7 @@
 import React from 'react'
-import Carousel  from './Carousel'
+import { Carousel }  from './Carousel'
 import { Contact } from './Contact'
+import { Info } from './Info'
 import './home.css'
 
 const slides = [
@@ -14,7 +15,8 @@ export const Home = () => {
         <>
             <main>
                 <Carousel />
-                <Contact/>
+                <Contact />
+                <Info />
             </main>
         </>
     )
