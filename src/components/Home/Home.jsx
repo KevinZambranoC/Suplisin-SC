@@ -2,13 +2,8 @@ import React from 'react'
 import { Carousel }  from './Carousel'
 import { Contact } from './Contact'
 import { Info } from './Info'
+import { Texture } from './Texture'
 import './home.css'
-
-const slides = [
-    " https://picsum.photos/2114/1080?random=1",
-    " https://picsum.photos/2114/1080?random=2",
-    " https://picsum.photos/2114/1080?random=3"
-]
 
 export const Home = () => {
     return (
@@ -17,6 +12,7 @@ export const Home = () => {
                 <Carousel />
                 <Contact />
                 <Info />
+                <Texture />
             </main>
         </>
     )
