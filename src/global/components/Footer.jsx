@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray-900">
+        <footer className="bg-gray-900">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact us</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <ul className="text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <Link to='contact' className="hover:underline w-3/6 inline-block">14340 Island Cove Dr, Orlando
                                     FL 32824 US</Link>
@@ -28,8 +28,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
+                            <ul className="text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <div className="hover:underline inline block h-6">
                                         <span className='bg-facebook w-4 h-4 text-white/[0] align-middle bg-cover inline-block mr-2'>123</span>
@@ -45,8 +45,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">schedules</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-semibold uppercase text-white">schedules</h2>
+                            <ul className="text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <p>Mon - Sat 8:00am - 5:00pm</p>
                                 </li> 
@@ -57,9 +57,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <p className="hover:underline inline-block">SuccesBuild LLC</p>. All Rights Reserved.
+                    <span className="text-sm sm:text-center text-gray-400">© 2023 <p className="hover:underline inline-block">SuccesBuild LLC</p>. All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                     </div>
