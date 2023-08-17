@@ -3,6 +3,7 @@ import { Carousel }  from './Carousel'
 import { Contact } from './Contact'
 import { Info } from './Info'
 import { Texture } from './Texture'
+import { Projects } from './Projects'
 import './home.css'
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
                 <Contact />
                 <Info />
                 <Texture />
+                <Projects />
             </main>
         </>
     )
