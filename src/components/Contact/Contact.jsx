@@ -1,6 +1,23 @@
-import React, { useState } from 'react'
+import React, {useRef} from 'react'
+
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_vyi9wyf', 'template_6it1bdq', form.current, 'LG1wzlMkwq7eZGa3R')
+        .then((result) => {
+            console.log(result.text);
+            form.current.reset();
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <>
             <div className="bg-gray-200 ">
@@ -12,7 +29,7 @@ export const Contact = () => {
                         <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0" />
                         <div className="absolute top-1/4 mt-12 w-full text-center text-white font-semibold ">
                             <p className='tracking-wide mb-4'>HOME • CONTACT</p>
-                            <h2 className="lg:text-7xl md:text-3xl text-2xl leading-9 ">Contact Us</h2>
+                            <h2 className="lg:text-7xl md:tex-4xl text-3xl leading-9 ">Contact Us</h2>
                         </div>
                     </div>
                 </div>
@@ -49,24 +66,26 @@ export const Contact = () => {
                     <div className="w-full lg:w-1/2   xl:pt-10 lg:pl-24">
                         <div className="flex flex-col items-start xl:justify-start 2xl:justify-end xl:px-0 px-4">
                             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-cyanBlue">Let’s Talk</h1>
-                            <div className="w-full 2xl:w-8/12 mt-3">
-                                <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">For enquiries, please email us using the form below</h2>
-                                <div className="mt-4 md:mt-8">
-                                    <p className="text-gray-800 text-base font-medium">Name</p>
-                                    <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800" type="text" placeholder="Justin Timberlake" />
+                            <form ref={form} onSubmit={sendEmail}>
+                                <div className="w-full 2xl:w-8/12 mt-3">
+                                    <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">For enquiries, please email us using the form below</h2>
+                                    <div className="mt-4 md:mt-8">
+                                        <p className="text-gray-800 text-base font-medium">Name</p>
+                                        <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black py-5 pl-4 text-gray-800" type="text" placeholder="Your name" name='user_name'/>
+                                    </div>
+                                    <div className="mt-4 md:mt-8">
+                                        <p className="text-gray-800 text-base font-medium">Email Address</p>
+                                        <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black py-5 pl-4 text-gray-800" type="email" placeholder="example@mail.com"name='user_email' />
+                                    </div>
+                                    <div className="mt-4 md:mt-8">
+                                        <p className="text-gray-800 text-base font-medium">Message</p>
+                                        <textarea className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 resize-none hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black xl:h-40 py-5 pl-4 text-gray-800" type="text" placeholder="Write us something..." defaultValue={""} name='message' />
+                                    </div>
+                                    <div className="py-5">
+                                        <button type='submit' className="py-5 px-10 bg-darkBlue text-white hover:opacity-80 hover:shadow-xl ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold" value='Send'>Send</button>
+                                    </div>
                                 </div>
-                                <div className="mt-4 md:mt-8">
-                                    <p className="text-gray-800 text-base font-medium">Email Address</p>
-                                    <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800" type="email" placeholder="example@mail.com" />
-                                </div>
-                                <div className="mt-4 md:mt-8">
-                                    <p className="text-gray-800 text-base font-medium">Message</p>
-                                    <textarea className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 resize-none hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black xl:h-40 py-5 pl-4 text-gray-800" type="text" placeholder="Write us something..." defaultValue={""} />
-                                </div>
-                                <div className="py-5">
-                                    <button className="py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold">Send</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
