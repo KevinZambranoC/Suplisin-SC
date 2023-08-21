@@ -36,7 +36,7 @@ export const Contact = () => {
                 </div>
             </div>
 
-        <div className="py-4 lg:py-8 mt-24  relative">
+        <div className="py-4 lg:py-8 relative">
             <img src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png" className="h-2/5 lg:h-full w-full lg:w-1/2 absolute inset-0 object-cover object-center xl:block hidden" alt="map" />
             <div className="xl:mx-auto xl:container  relative ">
                 <div className="flex flex-wrap xl:mx-auto xl:container">
