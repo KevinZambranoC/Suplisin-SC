@@ -45,7 +45,7 @@ export const Carousel = () => {
                         <div className='  bg-slate-50 w-1/3 md:h-52 text-center rounded-l-xl'>
                             <div className='mt-6'><ion-icon name="hammer-outline" id="card__icon"></ion-icon></div>
                             <h3 className='font-bold'>Drywall Installation</h3>
-                            <p className='leading-6 pt-1'>We specialize in providing top-quality drywall services for Residential clients.</p>
+                            <p className='leading-6 p-1'>We specialize in providing top-quality drywall services for Residential clients.</p>
                         </div>
                         <div className='bg-slate-100 w-1/3 md:h-64 text-center rounded-lg shadow-2xl'>
                             <div className='mt-6'><ion-icon name="copy-outline" id="card__icon"></ion-icon></div>

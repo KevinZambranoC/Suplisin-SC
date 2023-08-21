@@ -1,4 +1,5 @@
 import React, {useRef} from 'react'
+import { Toaster, toast } from 'sonner'
 
 import emailjs from '@emailjs/browser';
 
@@ -11,10 +12,10 @@ export const Contact = () => {
 
         emailjs.sendForm('service_vyi9wyf', 'template_6it1bdq', form.current, 'LG1wzlMkwq7eZGa3R')
         .then((result) => {
-            console.log(result.text);
+            toast.success('Request successfully sent')
             form.current.reset();
         }, (error) => {
-            console.log(error.text);
+            toast.error(error)
         });
     };
 
@@ -71,18 +72,19 @@ export const Contact = () => {
                                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">For enquiries, please email us using the form below</h2>
                                     <div className="mt-4 md:mt-8">
                                         <p className="text-gray-800 text-base font-medium">Name</p>
-                                        <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black py-5 pl-4 text-gray-800" type="text" placeholder="Your name" name='user_name'/>
+                                        <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black py-5 pl-4 text-gray-800" type="text" placeholder="Your name" name='user_name' required />
                                     </div>
                                     <div className="mt-4 md:mt-8">
                                         <p className="text-gray-800 text-base font-medium">Email Address</p>
-                                        <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black py-5 pl-4 text-gray-800" type="email" placeholder="example@mail.com"name='user_email' />
+                                        <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black py-5 pl-4 text-gray-800" type="email" placeholder="example@mail.com"name='user_email' required/>
                                     </div>
                                     <div className="mt-4 md:mt-8">
                                         <p className="text-gray-800 text-base font-medium">Message</p>
                                         <textarea className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 resize-none hover:border-lightBlue focus:border-lightBlue focus:outline-none border-black xl:h-40 py-5 pl-4 text-gray-800" type="text" placeholder="Write us something..." defaultValue={""} name='message' />
                                     </div>
                                     <div className="py-5">
-                                        <button type='submit' className="py-5 px-10 bg-darkBlue text-white hover:opacity-80 hover:shadow-xl ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold" value='Send'>Send</button>
+                                        <Toaster position='bottom-right' richColors />
+                                            <button type='submit' className="py-5 px-10 bg-darkBlue text-white hover:opacity-80 hover:shadow-xl ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold" value='Send'>Send</button>
                                     </div>
                                 </div>
                             </form>
