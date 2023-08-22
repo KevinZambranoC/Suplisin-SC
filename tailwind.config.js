@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -24,7 +27,8 @@ export default {
         'brush': 'url("/src/assets/brush.png")',
         'paint': 'url("/src/assets/paint.png")',
         'larrow': 'url("/src/assets/larrow.png")',
-        'rarrow': 'url("/src/assets/rarrow.png")'
+        'rarrow': 'url("/src/assets/rarrow.png")',
+        
       },
       screens: {
         'tablet': '920px'
@@ -36,5 +40,5 @@ export default {
     },
   },
   plugins: [],
-}
+})
 

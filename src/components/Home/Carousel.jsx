@@ -37,22 +37,22 @@ export const Carousel = () => {
                         <p className='font-semibold text-xl pb-2 mt-4'>Drywall Texture</p>
                         <h1 className='lg:text-7xl md:text-6xl sm:text-5xl text-4xl lg:w-auto w-3/4 font-bold text-center leading-semiloose'>Need new Drywall, Finish, Texture or Paint? <br />Do it right!</h1>
                     </div>
-                    <div className='relative top-48 md:top-56 md:hidden h-24 flex-col flex items-center justify-center w-72 text-center m-auto  text-white text-white'>
+                    <div className='relative top-48 md:top-56  md:hidden h-24 flex-col flex items-center justify-center w-72 text-center m-auto text-white'>
                         <button className='h-14 w-5/6 rounded-full bg-darkBlue font-medium tracking-wider'>Request Service</button>
                         <p className='pt-1  tracking-wide'>Get in touch for a custom quote</p>
                     </div>
-                    <div className='w-auto mt-4 xl:w-3/5 relative mx-auto top-64 lg:top-48 h-48 hidden md:flex flex-row items-center justify-center text-gray-800 shadow-2xl'>
-                        <div className='  bg-slate-50 w-1/3 md:h-52 text-center rounded-l-xl'>
+                    <div className='w-auto mt-4 xl:w-3/5 bg-white relative mx-auto top-64 lg:top-48 h-48 hidden md:flex flex-row items-center justify-center text-gray-800 shadow-2xl'>
+                        <div className='  bg-slate-50 w-1/3 bg-white md:h-52 text-center rounded-l-xl'>
                             <div className='mt-6'><ion-icon name="hammer-outline" id="card__icon"></ion-icon></div>
                             <h3 className='font-bold'>Drywall Installation</h3>
                             <p className='leading-6 p-1'>We specialize in providing top-quality drywall services for Residential clients.</p>
                         </div>
-                        <div className='bg-slate-100 w-1/3 md:h-64 text-center rounded-lg shadow-2xl'>
+                        <div className='bg-slate-100 w-1/3 bg-white md:h-64 text-center rounded-lg shadow-2xl'>
                             <div className='mt-6'><ion-icon name="copy-outline" id="card__icon"></ion-icon></div>
                             <h3 className='font-bold'>Taping, finishing and texture</h3>
                             <p className='leading-6 pb-3'>The company offers drywall taping and finishing services to create a smooth surface. They also provide texture application services for clients who desire a specific texture on their drywall surfaces.</p>
                         </div>
-                        <div className=' bg-slate-200 w-1/3  md:h-52 text-center rounded-r-xl'>
+                        <div className=' bg-slate-200 w-1/3 bg-white md:h-52 text-center rounded-r-xl'>
                             <div className='mt-4'><ion-icon name="color-palette-outline"  id="card__icon">a</ion-icon></div>
                             <h3 className='font-bold'>Interior & Exterionr Painting</h3>
                             <p className='leading-6 pt-1'>Professional hause painter, Contractor providing interior and exterior painting for Residential and Comercial.</p>

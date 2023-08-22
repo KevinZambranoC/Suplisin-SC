@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 export const Info = () => {
     return (
         <section className="mt-56 md:mt-0 bg-offWhite text-gray-800">
-            <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+            <div className="mx-auto  px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="mx-auto max-w-lg text-center">
                     <h2 className="text-3xl font-bold sm:text-4xl">Your Comfort Is Our #1 Priority </h2>
                     <p className="mt-4 text-gray-500">At our company, we take pride in offering fast and reliable professional painting services. Our team is made up of skilled and experienced painters who are dedicated to providing high-quality workmanship</p>
                 </div>
-                <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 ">
+                <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 w-full ">
                     <div className="group relative block bg-black shadow-xl">
                         <img
                             alt="tools"
