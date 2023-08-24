@@ -36,7 +36,7 @@ const Nav = () => {
                     }
                     <Button>
                         <span className='pr-1'><ion-icon id='calc' name="calculator-outline"></ion-icon></span>
-                        <p className='inline-block mt-[3px]'>GET A FARE RATE</p>
+                        <p className='inline-block mt-[3px] text-sm xl:text-base'>GET A FARE RATE</p>
                     </Button>
                 </ul>
             </div>
