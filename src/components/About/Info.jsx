@@ -32,8 +32,8 @@ const Info = () => {
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 mt-8">
-                    <img className="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1"/>
-                    <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2"/>
+                    <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1634586621169-93e12e0bd604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="demolition"/>
+                    <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://images.unsplash.com/photo-1523413363574-c30aa1c2a516?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="wall tiles"/>
                 </div>
             </div>
         </section>

@@ -4,6 +4,7 @@ import Info from './Info'
 import { Stats } from './Stats'
 import { Team } from './Team'
 import { Card } from './Card'
+import { SectionInfo } from './SectionInfo'
 
 export const About = () => {
     return (
@@ -13,6 +14,7 @@ export const About = () => {
             <Info/>
             <Stats/>
             <Card />
+            <SectionInfo />
         </>
         
     )

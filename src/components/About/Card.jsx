@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Card = () => {
     return (
-        <div className='h-[460px] sm:h-64 bg-offWhite w-full '>
+        <div className='h-[460px] md:h-48 bg-offWhite w-full '>
             <div className=' w-[85%] xl:w-2/3 m-auto bg-cyanBlue flex flex-col justify-between items-center md:flex-row text-white relative top-[-60px] md:top-[-125px] shadow-2xl'>
                 <article className="overflow-hidden shadow transition hover:shadow-lg grid grid-cols-1 md:grid-cols-2 ">
                     <img alt="Office" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" className="h-64 w-full object-cover"/>
