@@ -13,6 +13,7 @@ export const Info = () => {
                     <div className="group relative block bg-black shadow-xl">
                         <img
                             alt="tools"
+                            loading='lazy'
                             src="https://images.unsplash.com/photo-1606676539940-12768ce0e762?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
                             className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                         />
@@ -30,6 +31,7 @@ export const Info = () => {
                     <div className="group relative block bg-black shadow-xl">
                         <img
                             alt="roller"
+                            loading='lazy'
                             src="https://images.unsplash.com/photo-1599619585752-c3edb42a414c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
                             className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                         />
@@ -47,6 +49,7 @@ export const Info = () => {
                     <div className="group relative block bg-black shadow-xl">
                         <img
                             alt="drywall"
+                            loading='lazy'
                             src="https://images.unsplash.com/photo-1560440021-33f9b867899d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=659&q=80"
                             className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                         />
@@ -64,6 +67,7 @@ export const Info = () => {
                     <div className="group relative block bg-black shadow-xl">
                         <img
                             alt="taping_finishing"
+                            loading='lazy'
                             src="https://images.unsplash.com/photo-1543525324-26e03b510586?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
                             className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                         />

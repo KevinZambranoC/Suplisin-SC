@@ -7,7 +7,7 @@ ion-icon {
     font-size: 1.7rem;
 }
 
-#card__icon {
+.card__icon {
     color: black;
     font-size: 48px;
 }

@@ -14,7 +14,7 @@ export const Projects = () => {
                     <div className=" grid gap-4 grid-cols-1 md:grid-cols-1 xl:grid-cols-3 ">
                         <div className="group relative block bg-black shadow-xl">
                             <img
-                                alt="interior_house"
+                                alt="interior_house" loading='lazy'
                                 src="https://sbflorida.com/wp-content/uploads/2018/09/gallery_projects_11-1-640x480.jpg"
                                 className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                             />
@@ -34,6 +34,7 @@ export const Projects = () => {
                         <div className="group relative block bg-black shadow-xl">
                             <img
                                 alt="interior_house"
+                                loading='lazy'
                                 src="https://sbflorida.com/wp-content/uploads/2018/09/gallery_projects_07-1-640x480.jpg"
                                 className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                             />
@@ -52,6 +53,7 @@ export const Projects = () => {
                         <div className="group relative block bg-black shadow-xl">
                             <img
                                 alt="interior_house"
+                                loading='lazy'
                                 src="https://sbflorida.com/wp-content/uploads/2018/09/gallery_projects_10-1-640x480.jpg"
                                 className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                             />
