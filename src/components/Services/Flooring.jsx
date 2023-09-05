@@ -10,7 +10,7 @@ const Flooring = () => {
                 </div>
                 <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                     <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-xl">
-                        <img alt="kitchen" data-twic-src="https://images.unsplash.com/photo-1601465788455-63a148629b68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" className="absolute inset-0 h-full w-full object-cover"/>
+                        <img alt="kitchen" data-twic src="https://images.unsplash.com/photo-1601465788455-63a148629b68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" className="absolute inset-0 h-full w-full object-cover"/>
                         <div className="relative h-full bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
                             <div className="p-4 sm:p-6">
                                 <a href="#">
@@ -21,7 +21,7 @@ const Flooring = () => {
                         </div>
                     </article>
                     <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-xl">
-                        <img alt="table" data-twic-src="https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" className="absolute inset-0 h-full w-full object-cover"/>
+                        <img alt="table" data-twic src="https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" className="absolute inset-0 h-full w-full object-cover"/>
                         <div className="relative h-full bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
                             <div className="p-4 sm:p-6">
                                 <a href="#">
@@ -32,7 +32,7 @@ const Flooring = () => {
                         </div>
                     </article>
                     <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-xl">
-                        <img alt="livingroom" data-twic-src="https://images.unsplash.com/photo-1575204015311-0fe377370780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80" className="absolute inset-0 h-full w-full object-cover"/>
+                        <img alt="livingroom" data-twic src="https://images.unsplash.com/photo-1575204015311-0fe377370780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80" className="absolute inset-0 h-full w-full object-cover"/>
                         <div className="relative h-full bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
                             <div className="p-4 sm:p-6">
                                 <a href="#">

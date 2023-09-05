@@ -6,7 +6,7 @@ export const ServiceInfo = () => {
             <div className="mx-auto h-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className="relative h-80 overflow-hidden sm:h-80 lg:order-last lg:h-full">
-                        <img alt="kitchen" data-twic-src="https://images.unsplash.com/photo-1610276099461-9289d5456acf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" className="absolute inset-0 h-full w-full object-cover"/>
+                        <img alt="kitchen" data-twic src="https://images.unsplash.com/photo-1610276099461-9289d5456acf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" className="absolute inset-0 h-full w-full object-cover"/>
                     </div>
                     <div className="lg:py-24 w-2/3 mx-auto my-8">
                         <h2 className="text-4xl font-bold mb-6">Hardwood Floor Installation</h2>
@@ -38,7 +38,7 @@ export const ServiceInfo = () => {
             <div className="mx-auto ">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className="relative h-80 overflow-hidden sm:h-80 lg:order-first lg:h-full">
-                        <img alt="couch" data-twic-src="https://images.unsplash.com/photo-1662557499772-2c613eddadd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" className="absolute inset-0 h-full w-full object-cover"/>
+                        <img alt="couch" data-twic src="https://images.unsplash.com/photo-1662557499772-2c613eddadd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" className="absolute inset-0 h-full w-full object-cover"/>
                     </div>
                     <div className="lg:py-24 w-2/3 mx-auto my-8">
                         <h2 className="text-4xl font-bold mb-6">Laminate Floor Maintenance</h2>
