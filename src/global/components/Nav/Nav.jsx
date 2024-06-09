@@ -17,7 +17,7 @@ const Nav = () => {
 
     return (
         <div className='z-20 shadow-xl w-full fixed top-0 left-0'>
-            <div className='md:flex items-center justify-between bg-darkBlue py-4 lg:px-10 px-7'>
+            <div className='md:flex items-center justify-between bg-offWhite py-4 lg:px-10 px-7'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center text-gray-800'>
                     <Link to='/' className=' flex items-center w-56 '>
                         <img className='w-56 h-12 self-center text-2xl font-semibold whitespace-nowrap w-32 object-cover' src="/logo.png" alt="succesBuild logo" />
@@ -30,13 +30,13 @@ const Nav = () => {
                     {
                         Links.map((link)=>(
                         <li key={link.name} className='lg:ml-8 text-lg lg:my-0 my-7'>
-                            <Link to={link.route} className='text-gray-700 lg:text-white hover:text-gray-400 duration-500'>{link.name}</Link>
+                            <Link to={link.route} className='text-black-700 lg:text-black hover:text-gray-400 duration-500'>{link.name}</Link>
                         </li>
                         ))
                     }
                     <Button>
                         <span className='pr-1'><ion-icon id='calc' name="calculator-outline"></ion-icon></span>
-                        <p className='inline-block mt-[3px] text-sm xl:text-base'>GET A FARE RATE</p>
+                        <p className='inline-block mt-[3px] text-sm xl:text-base'>Presupuesto</p>
                     </Button>
                 </ul>
             </div>

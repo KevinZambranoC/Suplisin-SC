@@ -1,5 +1,3 @@
-/** @type {import('tailwindcss').Config} */
-
 const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
@@ -16,7 +14,6 @@ module.exports = withMT({
         'lightGray': '#e0e1dd',
         'lightBlue': '#778da9',
         'offWhite': '#edf6f9'
-
       },
       backgroundImage: {
         'calculator': 'url("/src/assets/calc.png")',
@@ -28,7 +25,6 @@ module.exports = withMT({
         'paint': 'url("/src/assets/paint.png")',
         'larrow': 'url("/src/assets/larrow.png")',
         'rarrow': 'url("/src/assets/rarrow.png")',
-        
       },
       screens: {
         'tablet': '920px'
@@ -40,5 +36,4 @@ module.exports = withMT({
     },
   },
   plugins: [],
-})
-
+});
