@@ -5,7 +5,7 @@ export const Carousel = () => {
         {
             url: 'https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
-        //https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1700&q=80
+        
         {
             url: 'https://images.unsplash.com/photo-1593313637552-29c2c0dacd35?w=1000&auto=format&fit=crop&q=100&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hvZXMlMjBjb25zdHJ1Y3Rpb258ZW58MHx8MHx8fDA%3D',
         },
