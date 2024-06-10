@@ -12,4 +12,7 @@ export default defineConfig({
    open: true, // Abre el navegador automáticamente
     hmr: true,  // Habilita Hot Module Replacement
   },
+  build: {
+    outDir: 'dist',
+  },
 });
