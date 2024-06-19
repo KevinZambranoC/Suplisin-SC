@@ -13,7 +13,8 @@ module.exports = withMT({
         'cyanBlue': '#415a77',
         'lightGray': '#e0e1dd',
         'lightBlue': '#778da9',
-        'offWhite': '#edf6f9'
+        'offWhite': '#edf6f9',
+        'ice':'#C5DEEB'
       },
       backgroundImage: {
         'calculator': 'url("/src/assets/calc.png")',
@@ -35,5 +36,15 @@ module.exports = withMT({
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      addUtilities({
+        '.empty\\:hidden': {
+          '&:empty': {
+            display: 'none',
+          },
+        },
+      })
+    }
+  ],
 });
