@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './nav.css';
 
 const Nav = () => {
-
     const Links = [
         { name: "Inicio", route: "/" },
         { name: "Servicios", route: "/services" },
@@ -25,15 +24,14 @@ const Nav = () => {
                 <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer lg:hidden'>
                     <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
                 </div>
-                <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
+                <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 bg-white' : 'top-[-490px]'} ${open ? 'bg-white' : ''}`}>
                     {
                         Links.map((link) => (
                             <li key={link.name} className='lg:ml-8 text-lg lg:my-0 my-7'>
-                                <Link to={link.route} className='text-gray-800 lg:text-black hover:text-gray-600 duration-500'>{link.name}</Link>
+                                <Link to={link.route} className={`text-gray-800 lg:text-black hover:text-gray-600 duration-500 ${open ? 'text-black' : ''}`}>{link.name}</Link>
                             </li>
                         ))
                     }
-                    
                 </ul>
             </div>
         </div>

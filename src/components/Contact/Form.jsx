@@ -33,8 +33,8 @@ export const Form = () => {
                                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">Creemos que la innovación digital está en el corazón de todo éxito empresarial</h2>
                                     <div className="mt-4 md:mt-8">
                                         <h2 className="text-sm md:text-base text-indigo-700 font-semibold">Domicilio</h2>
-                                        <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">Calle #4, 6-27 Táriba- Edo Táchira - Venezuela<br />
-                                        Orlando FL 32824 US</h2>
+                                        <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">Calle #4, 6-27 Táriba<br />
+                                        Edo Táchira - Venezuela</h2>
                                     </div>
                                     <div className="mt-4 md:mt-8">
                                         <h2 className="text-sm md:text-base text-indigo-700 font-semibold">Contacto</h2>
